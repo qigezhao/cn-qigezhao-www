@@ -14,43 +14,50 @@
 
 </head>
 
-<body>
-    <header class="p-3 bg-dark text-white">
+<body class="d-flex flex-column h-100">
+    <header class="p-2 bg-dark text-white">
         <div class="container">
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
             <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
               <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
             </a>
     
-            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="#" class="nav-link px-2 text-secondary">首页</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">正在建设</a></li>
-              <li><a href="mailto:qigezhao@gmail.com" class="nav-link px-2 text-white">联系齐葛</a></li>
+            <ul class="nav me-auto">
+                <li><a href="/" class="nav-link px-2 text-secondary">首页</a></li>
             </ul>
-    
+            <ul class="nav">
+                <li><a href="mailto:qigezhao@gmail.com" class="nav-link px-2 text-white">关于我</a></li>
+            </ul>
+        
           </div>
         </div>
     </header>
 
     <div class="px-4 py-5 my-5 text-center">
-        <h1 class="display-5 fw-bold">正在建设</h1>
-        <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">建站代码将开源，敬请关注</p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <a class="btn btn-primary btn-lg px-4 gap-3" href="https://github.com/qigezhao/cn-qigezhao-www" target="_blank">代码库</a>
+        <div class="container">
+            <h1 class="display-5 fw-bold">即将上线 敬请期待</h1>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+              <h2>基础业务分析</h2>
+              <p>如何搭建、监控、升级自己的网站，及相应的技术规划与储备</p>
             </div>
-        </div>
+            <div class="feature col">
+                <h2>常见案例分析</h2>
+                <p>包括：SSO登录、微信小程序登录、OTP原理、异步任务等</p>
+              </div>
+              <div class="feature col">
+                <h2>前后端框架使用</h2>
+                <p>包括：BootStap、flask等</p>
+              </div>
+              </div>
+          </div>
     </div>
 
-    <div class="container py-5">
-        <div class="row">
-            <div class="col-lg-12 mb-12">
-                <ul class="list-unstyled small text-muted">
-                    <li class="mb-2">京ICP备19016028号-1</li>
-                </ul>
-            </div>
+    <footer class=" footer mt-auto py-2 border-top">
+        <div class="container">
+            <p class="text-center small text-muted">京ICP备19016028号-1 © 2021</p>
         </div>
-    </div>
+    </footer>
 
 </body>
 </html>
