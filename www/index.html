@@ -36,53 +36,53 @@
       </div>
     </div>
   </header>
-  <div class="px-4 py-4 my-4 text-center border-bottom">
-    <h2 class="display-5 fw-bold">服务业务</h2>
-    <div class="col-lg-6 mx-auto py-3">
-      <p class="lead mb-4">被编写的程序基本都被用于商业活动，在时间、人力、资金有限的情况下，能否妥善的支撑商业活动，设计并产出最贴近业务要求的服务</p>
+  <div class="container px-3 py-5">
+    <h1 class="pb-2 border-bottom">研发理念</h1>
+    <div class="row g-4 py-4 row-cols-1 row-cols-lg-3">
+      <div class="col lead">
+        <h2>理解业务</h2>
+        <p>理解业务场景，定量分析，听取业务方的要求，必要时亲自体验</p>
+        <p>在业务方的要求无法满足时，可以从技术角度提出辅助类指标</p>
+        <p>前期的有效沟通，可以保证“业务”与“设计”一致，增加研发效率</p>
+      </div>
+      <div class="col lead">
+        <h2>服务业务</h2>
+        <p>成型的业务，按照最佳实践的要求研发</p>
+        <p>非成型的业务，抽象业务流程后，预留可调参数，支持差异化运行</p>
+        <p>数据抽样方法、计算方式、数学模型要明确，异常数据追踪来源</p>
+      </div>
+      <div class="col lead">
+        <h2>有效沟通</h2>
+        <p>准确理解业务方的要求，学习专业名词，虚心请教，准确表达，减少无效率沟通</p>
+        <p>与业务方讨论业务流程，分析痛点；与技术方讨论方案，衡量定量指标</p>
+        <p>主题明确的“头脑风暴”，适度“拥抱变化”，信仰“慢就是稳，稳就是快”</p>
+      </div>
+      <div class="col lead">
+        <h2>敏捷开发</h2>
+        <p>前期沟通文档、用例、基础指标与图表、注释必须要落地并形成文字记录</p>
+        <p>编写对应的测试用例，保证“设计”与“实现”一致；增加代码审查保证代码质量</p>
+        <p>时刻牢记异常时的默认动作，保证通信异常、模块异常、依赖异常时，利用默认值执行最小损失的方案</p>
+      </div>
+      <div class="col lead">
+        <h2>适度优化</h2>
+        <p>发生故障后，故障审查的目的是找到产生故障的根本原因，对事不对人；故障确诊后，必须编写测试用例，保证可靠性</p>
+        <p>除非指标不达标，任何提前优化，或过度优化，都会浪费时间、人力等资源</p>
+        <p>“重构”一般发生在业务沉淀后，按业务/功能分层抽象后拆解为不同的组件，命名规则以“代码自注释”最佳</p>
+      </div>
+      <div class="col lead">
+        <h2>团队一致</h2>
+        <p>包括一致的开发环境、相同的开发工具、近似的代码风格、归纳与理解能力</p>
+        <p>团队标准可能不完善，但是会极大改善团队内的沟通效率</p>
+        <p>组织团队学习历史故障，增加故障处置演练</p>
+      </div>
     </div>
   </div>
-  <div class="px-4 py-4 my-3 text-center border-bottom">
-    <h2 class="display-5 fw-bold">理解业务</h2>
-    <div class="col-lg-6 mx-auto py-3">
-      <p class="lead mb-2">理解业务场景时，不仅要听取业务方的要求，必要时亲自体验</p>
-      <p class="lead mb-2">在业务方提出无法实现的要求时，可以从技术角度理解业务，并提出改进指标</p>
-      <p class="lead mb-4">前期的有效沟通，可以增加开发的效率，保证“业务”与“设计”一致</p>
+  <nav class="navbar fixed-bottom navbar-dark bg-dark">
+    <div class="container-fluid">
+      <span class="navbar-text">京ICP备19016028号-1 © 2021</span>
     </div>
-  </div>
-  <div class="px-4 py-4 my-3 text-center border-bottom">
-    <h2 class="display-5 fw-bold">敏捷开发</h2>
-    <div class="col-lg-6 mx-auto py-3">
-      <p class="lead mb-2">敏捷开发≠只开发不管理，必要的文档、图表、基础指标、注释必须要落地并形成文字记录，通过编写单元测试，代码审查保证代码质量</p>
-      <p class="lead mb-4">发生故障后，必须编写单元测试，保证可靠性，保证“设计”与“实现”一致</p>
-    </div>
-  </div>
-  <div class="px-4 py-4 my-3 text-center border-bottom">
-    <h2 class="display-5 fw-bold">故障安全</h2>
-    <div class="col-lg-6 mx-auto py-3">
-      <p class="lead mb-2">时刻牢记异常时的默认动作，保证通信异常、模块异常、依赖异常时，利用默认值执行最小损失的方案</p>
-      <p class="lead mb-4">故障审查的目的是找到产生故障的根本原因，对事不对人</p>
-    </div>
-  </div>
-  <div class="px-4 py-4 my-3 text-center border-bottom">
-    <h2 class="display-5 fw-bold">适度优化</h2>
-    <div class="col-lg-6 mx-auto py-3">
-      <p class="lead mb-2">除非指标不达标，任何提前优化，或过度优化，都会浪费时间、人力等资源</p>
-      <p class="lead mb-4">当业务沉淀后，按业务/功能分层拆解，“代码自注释”</p>
-    </div>
-  </div>
-  <div class="px-4 py-4 my-3 text-center border-bottom">
-    <h2 class="display-5 fw-bold">团队一致</h2>
-    <div class="col-lg-6 mx-auto py-3">
-      <p class="lead mb-2">包括一致的开发环境、相同的开发工具、近似的代码风格、归纳与理解能力</p>
-      <p class="lead mb-4">团队标准可能不完善，但是会极大改善团队内的沟通效率</p>
-    </div>
-  </div>
-  <footer class=" footer mt-auto py-2">
-    <div class="container">
-      <p class="text-center small text-muted">京ICP备19016028号-1 © 2021</p>
-    </div>
-  </footer>
+    
+  </nav>
 
 </body>
 
